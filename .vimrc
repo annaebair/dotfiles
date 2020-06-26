@@ -17,6 +17,7 @@ set showmatch                       " Highlight matching {[()]}
 set laststatus=2                    " Show status line at the bottom
 set scrolloff=12                    " Keep cursor in the middle of the screen
 nmap Q <Nop> 
+
 "--------------------
 " Plugins
 "--------------------
@@ -58,4 +59,4 @@ set expandtab                       " Tabs are spaces
 
 set autoindent                      " Enter performs indentation appropriately.
 
-colorscheme gruvbox                   " other nice ones: delphi, darkburn, darth 
+colorscheme gruvbox                 " other nice ones: delphi, darkburn, darth 
