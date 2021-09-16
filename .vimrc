@@ -31,6 +31,10 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'valloric/youcompleteme'
+Plugin 'lervag/vimtex'
+let g:tex_flavor='latex'
+set conceallevel=1
+let g:tex_conceal='abdmg'
 
 call vundle#end()                   
 
