@@ -12,6 +12,7 @@ set backspace=indent,eol,start      " Make backspace work more intuitively
 set noerrorbells visualbell t_vb=   " Disable audible bell because it's annoying.
 set mouse+=a                        " Enable mouse support. 
 set wildmenu
+set background=dark
 
 set showmatch                       " Highlight matching {[()]}
 set laststatus=2                    " Show status line at the bottom
@@ -30,18 +31,20 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'valloric/youcompleteme'
-Plugin 'lervag/vimtex'
-let g:tex_flavor='latex'
-set conceallevel=1
-let g:tex_conceal='abdmg'
+"Plugin 'valloric/youcompleteme'
+"Plugin 'lervag/vimtex'
+"let g:tex_flavor='latex'
+"set conceallevel=1
+"let g:tex_conceal='abdmg'
+Plugin 'morhetz/gruvbox'
+"Plugin 'valloric/youcompleteme'
 
 call vundle#end()                   
 
 filetype plugin indent on           " required
 let g:airline_powerline_fonts = 1
 let g:airline_theme='bubblegum'
-let g:ycm_autoclose_preview_window_after_completion = 1
+"let g:ycm_autoclose_preview_window_after_completion = 1
 "--------------------
 " Searching
 "--------------------
